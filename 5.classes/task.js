@@ -3,7 +3,6 @@
 //Задача №1. Печатное издание
 
 class PrintEditionItem {
-    
     constructor (name, releaseDate, pagesCount) {
         this.name = name;
         this.releaseDate = releaseDate;
@@ -79,7 +78,6 @@ class Library {
         if (book.state > 30){
             this.books.push(book);
         }
-
     }
     
     findBookBy(type, value){        
@@ -96,5 +94,4 @@ class Library {
         }
         return null;  
     }
- 
-}
+ }
